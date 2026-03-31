@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "battleteams",
+  "version": "${version}",
+  "name": "BattleTeams",
+  "description": "",
+  "authors": [
+    "Fjorn"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/battleteams/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": [
+      "gg.cncmc.battleteams.client.BattleTeamsDataGenerator"
+    ],
+    "main": [
+      "gg.cncmc.battleteams.BattleTeams"
+    ]
+  },
+  "mixins": [
+    "battleteams.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "luckperms": "*"
+  }
+}
