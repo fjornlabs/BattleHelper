@@ -1,33 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "battleteams",
+  "id": "battlemanager",
   "version": "${version}",
-  "name": "BattleTeams",
-  "description": "",
-  "authors": [
-    "Fjorn"
-  ],
-  "contact": {},
-  "license": "All-Rights-Reserved",
-  "icon": "assets/battleteams/icon.png",
-  "environment": "server",
+  "name": "BattleManager",
+  "description": "Battle system mod",
+  "authors": ["fjornlabs"],
+  "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "gg.cncmc.battleteams.client.BattleTeamsDataGenerator"
-    ],
     "main": [
-      "gg.cncmc.battleteams.BattleTeams"
+      "gg.cnmc.battlemanager.BattleManager"
     ]
   },
-  "mixins": [
-    "battleteams.mixins.json"
-  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
-  },
-  "suggests": {
-    "luckperms": "*"
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
   }
 }
