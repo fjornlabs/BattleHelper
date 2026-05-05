@@ -1,5 +1,6 @@
 package gg.cnmc.battlemanager.battle;
 
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.math.BlockPos;
 
@@ -65,22 +66,8 @@ public class BannerTracker {
         originalBannerPos = pos;
     }
 
-    public static void returnBanner(net.minecraft.server.MinecraftServer server, ServerPlayerEntity carrier) {
+    public static void returnBanner(MinecraftServer server, ServerPlayerEntity carrier) {
         if (originalBannerPos == null) return;
-
-        // Clear the banner item from the carrier's inventory
-        net.minecraft.entity.player.PlayerInventory inv = carrier.getInventory();
-        for (int i = 0; i < inv.size(); i++) {
-            net.minecraft.item.ItemStack stack = inv.getStack(i);
-            if (stack.getItem() == net.minecraft.item.Items.BLUE_BANNER) {
-                inv.removeStack(i);
-                break;
-            }
-        }
-
-        // Place the named banner block back
-        net.minecraft.item.ItemStack bannerItem = new net.minecraft.item.ItemStack(net.minecraft.item.Items.BLUE_BANNER);
-        bannerItem.setCustomName(net.minecraft.text.Text.literal("§9§lBanner Objective").styled(s -> s.withItalic(false)));
 
         net.minecraft.block.entity.BannerBlockEntity bannerEntity = new net.minecraft.block.entity.BannerBlockEntity(
                 originalBannerPos,

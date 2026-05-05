@@ -1,5 +1,5 @@
-[15:25:02] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
-[15:25:03] [main/INFO] (FabricLoader) Loading 48 mods:
+[15:38:41] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[15:38:43] [main/INFO] (FabricLoader) Loading 48 mods:
 	- battlemanager 1.0
 	- fabric-api 0.92.2+1.20.1
 	- fabric-api-base 0.4.31+1802ada577
@@ -48,8 +48,8 @@
 	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
 	- minecraft 1.20.1
 	- mixinextras 0.3.5
-[15:25:13] [main/WARN] (FabricLoader/ModRemap) Error deleting temporary input jar true
-java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v01734927998200899147.jar: The process cannot access the file because it is being used by another process
+[15:39:23] [main/WARN] (FabricLoader/ModRemap) Error deleting temporary input jar true
+java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v0100370399370043493.jar: The process cannot access the file because it is being used by another process
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
@@ -63,68 +63,88 @@ java.nio.file.FileSystemException: .\.fabric\tmp\fabric-permissions-api-v0173492
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
-[15:25:13] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/fynnkunz/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[15:25:13] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:25:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[15:25:14] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[15:25:15] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[15:25:49] [main/INFO] (BattleManager) [BattleManager] BattleManager has started!
-[15:25:50] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:25:55] [main/INFO] (Minecraft) Loaded 7 recipes
-[15:25:55] [main/INFO] (Minecraft) Loaded 1271 advancements
-[15:25:56] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 3.567 ms
-[15:25:56] [Server thread/INFO] (Minecraft)         __    
-[15:25:56] [Server thread/INFO] (Minecraft)   |    |__)   LuckPerms v5.4.88
-[15:25:56] [Server thread/INFO] (Minecraft)   |___ |      Running on Fabric - fabric@0.92.2+1.20.1
-[15:25:56] [Server thread/INFO] (Minecraft) 
-[15:25:56] [Server thread/INFO] (luckperms) Loading configuration...
-[15:25:57] [Server thread/INFO] (luckperms) Loading storage provider... [H2]
-[15:25:58] [Server thread/INFO] (luckperms) Loading internal permission managers...
-[15:25:58] [Server thread/INFO] (luckperms) Performing initial data load...
-[15:25:58] [Server thread/INFO] (luckperms) Successfully enabled. (took 2046ms)
-[15:25:58] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.1
-[15:25:58] [Server thread/INFO] (Minecraft) Loading properties
-[15:25:58] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
-[15:25:58] [Server thread/INFO] (Minecraft) Generating keypair
-[15:25:58] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
-[15:25:59] [Server thread/INFO] (Minecraft) Using default channel type
-[15:26:00] [Server thread/INFO] (Minecraft) Preparing level "world"
-[15:26:05] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:12] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:13] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
-[15:26:13] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 4%
-[15:26:14] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 16%
-[15:26:14] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 32%
-[15:26:15] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 54%
-[15:26:15] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 57%
-[15:26:16] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 70%
-[15:26:16] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 89%
-[15:26:17] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 99%
-[15:26:17] [Server thread/INFO] (Minecraft) Time elapsed: 11527 ms
-[15:26:17] [Server thread/INFO] (Minecraft) Done (17.064s)! For help, type "help"
-[15:26:30] [User Authenticator #1/INFO] (Minecraft) UUID of player McFjorn is 0a8080e9-7b57-48b3-9eaa-936153878d1b
-[15:26:30] [Server thread/INFO] (Minecraft) McFjorn[/127.0.0.1:54662] logged in with entity id 165 at (-64.1664352182252, 78.0, -9.811903281445332)
-[15:26:31] [Server thread/INFO] (Minecraft) McFjorn joined the game
-[15:26:40] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2257ms or 45 ticks behind
-[15:26:45] [Server thread/INFO] (Minecraft) [McFjorn: Removed 1 item(s) from player McFjorn]
-[15:26:57] [Server thread/INFO] (BattleManager) [BattleManager] Battle mode set to assault by McFjorn
-[15:27:05] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 9869ms or 197 ticks behind
-[15:27:06] [Server thread/INFO] (Minecraft) [BattleManager] Use /battleteams to select a team
-[15:27:06] [Server thread/INFO] (Minecraft) Offense will assault 1 objective per round. There is 1 round.
+[15:39:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/fynnkunz/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:39:24] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:39:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:39:40] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[15:40:25] [main/INFO] (BattleManager) [BattleManager] BattleManager has started!
+[15:40:29] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:40:40] [main/INFO] (Minecraft) Loaded 7 recipes
+[15:40:41] [main/INFO] (Minecraft) Loaded 1271 advancements
+[15:40:43] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 7.544 ms
+[15:40:43] [Server thread/INFO] (Minecraft)         __    
+[15:40:43] [Server thread/INFO] (Minecraft)   |    |__)   LuckPerms v5.4.88
+[15:40:43] [Server thread/INFO] (Minecraft)   |___ |      Running on Fabric - fabric@0.92.2+1.20.1
+[15:40:43] [Server thread/INFO] (Minecraft) 
+[15:40:43] [Server thread/INFO] (luckperms) Loading configuration...
+[15:40:45] [Server thread/INFO] (luckperms) Loading storage provider... [H2]
+[15:40:46] [Server thread/INFO] (luckperms) Loading internal permission managers...
+[15:40:46] [Server thread/INFO] (luckperms) Performing initial data load...
+[15:40:46] [Server thread/INFO] (luckperms) Successfully enabled. (took 3348ms)
+[15:40:46] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.1
+[15:40:46] [Server thread/INFO] (Minecraft) Loading properties
+[15:40:46] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[15:40:46] [Server thread/INFO] (Minecraft) Generating keypair
+[15:40:47] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[15:40:47] [Server thread/INFO] (Minecraft) Using default channel type
+[15:40:49] [Server thread/INFO] (Minecraft) Preparing level "world"
+[15:41:00] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:12] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
+[15:41:13] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 4%
+[15:41:14] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 4%
+[15:41:14] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 6%
+[15:41:15] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 22%
+[15:41:15] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 30%
+[15:41:15] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 35%
+[15:41:16] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 51%
+[15:41:17] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 60%
+[15:41:17] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 65%
+[15:41:18] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 66%
+[15:41:18] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 76%
+[15:41:19] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 82%
+[15:41:19] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 85%
+[15:41:19] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 87%
+[15:41:20] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 99%
+[15:41:21] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 99%
+[15:41:21] [Server thread/INFO] (Minecraft) Time elapsed: 20192 ms
+[15:41:21] [Server thread/INFO] (Minecraft) Done (31.340s)! For help, type "help"
+[15:41:24] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[15:41:45] [User Authenticator #1/INFO] (Minecraft) UUID of player McFjorn is 0a8080e9-7b57-48b3-9eaa-936153878d1b
+[15:41:47] [Server thread/INFO] (Minecraft) McFjorn[/127.0.0.1:31771] logged in with entity id 165 at (-63.206870850222465, 79.0, -25.254365290247453)
+[15:41:48] [Server thread/INFO] (Minecraft) McFjorn joined the game
+[15:41:49] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2785ms or 55 ticks behind
+[15:42:09] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 5257ms or 105 ticks behind
+[15:42:32] [Server thread/INFO] (Minecraft) [McFjorn: Gamerule keepInventory is now set to: true]
+[15:42:36] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[15:42:42] [Server thread/INFO] (Minecraft) [McFjorn: Set own game mode to Creative Mode]
+[15:42:58] [Server thread/INFO] (Minecraft) [McFjorn: Set own game mode to Survival Mode]
+[15:43:06] [Server thread/INFO] (BattleManager) [BattleManager] Battle mode set to assault by McFjorn
+[15:43:10] [Server thread/INFO] (Minecraft) [BattleManager] Use /battleteams to select a team
+[15:43:10] [Server thread/INFO] (Minecraft) Offense will assault 1 objective per round. There is 1 round.
 Each round takes 45 minutes.
 Defense must defend a unique banner objective a player on their team holds; the offense must seize that banner.
 To seize the banner, the Offense must break the banner and return it to their spawn.
@@ -135,15 +155,15 @@ Vehicles are allowed to be used by both teams.
 Each side may enter their own spawn area during the battle, but not the enemies spawn area.
 Each side has infinite respawns.
 
-[15:27:06] [Server thread/INFO] (BattleManager) [BattleManager] Battle prep started by McFjorn
-[15:27:23] [Server thread/INFO] (Minecraft) §9The banner objective has been placed!
-[15:27:52] [Server thread/INFO] (Minecraft) §7Attackers must break the banner and return it to their spawn. Defenders must protect it!
-[15:27:52] [Server thread/INFO] (BattleManager) [BattleManager] Battle started by McFjorn
-[15:28:04] [Server thread/INFO] (Minecraft) §eMcFjorn §ahas seized the banner! Return it to attacker spawn!
-[15:28:13] [Server thread/INFO] (Minecraft) §9The banner has been returned to the defenders!
-[15:28:13] [Server thread/INFO] (Minecraft) [McFjorn: Killed McFjorn]
-[15:28:20] [Server thread/INFO] (Minecraft) §eMcFjorn §ahas seized the banner! Return it to attacker spawn!
-[15:28:24] [Server thread/INFO] (Minecraft) §cThe attackers seized the banner and returned it to their spawn!
-[15:28:24] [Server thread/INFO] (BattleManager) [BattleManager] Assault ended — Attackers win
-[15:28:34] [Server thread/INFO] (Minecraft) McFjorn lost connection: Disconnected
-[15:28:34] [Server thread/INFO] (Minecraft) McFjorn left the game
+[15:43:10] [Server thread/INFO] (BattleManager) [BattleManager] Battle prep started by McFjorn
+[15:43:14] [Server thread/INFO] (Minecraft) §9The banner objective has been placed!
+[15:43:36] [Server thread/INFO] (Minecraft) §7Attackers must break the banner and return it to their spawn. Defenders must protect it!
+[15:43:36] [Server thread/INFO] (BattleManager) [BattleManager] Battle started by McFjorn
+[15:43:48] [Server thread/INFO] (Minecraft) §eMcFjorn §ahas seized the banner! Return it to attacker spawn!
+[15:43:55] [Server thread/INFO] (Minecraft) §9The banner has been returned to the defenders!
+[15:43:55] [Server thread/INFO] (Minecraft) [McFjorn: Killed McFjorn]
+[15:44:03] [Server thread/INFO] (Minecraft) §eMcFjorn §ahas seized the banner! Return it to attacker spawn!
+[15:44:07] [Server thread/INFO] (Minecraft) §cThe attackers seized the banner and returned it to their spawn!
+[15:44:07] [Server thread/INFO] (BattleManager) [BattleManager] Assault ended — Attackers win
+[15:44:10] [Server thread/INFO] (Minecraft) McFjorn lost connection: Disconnected
+[15:44:10] [Server thread/INFO] (Minecraft) McFjorn left the game
