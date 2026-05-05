@@ -1581,3 +1581,14 @@ Each side may enter their own spawn area during the battle, but not the enemies 
 Each side has infinite respawns.
 
 [15:27:06] [Server thread/INFO] (BattleManager) [BattleManager] Battle prep started by McFjorn
+[15:27:23] [Server thread/INFO] (net.minecraft.server.MinecraftServer) §9The banner objective has been placed!
+[15:27:52] [Server thread/INFO] (net.minecraft.server.MinecraftServer) §7Attackers must break the banner and return it to their spawn. Defenders must protect it!
+[15:27:52] [Server thread/INFO] (BattleManager) [BattleManager] Battle started by McFjorn
+[15:28:04] [Server thread/INFO] (net.minecraft.server.MinecraftServer) §eMcFjorn §ahas seized the banner! Return it to attacker spawn!
+[15:28:13] [Server thread/INFO] (net.minecraft.server.MinecraftServer) §9The banner has been returned to the defenders!
+[15:28:13] [Server thread/INFO] (net.minecraft.server.MinecraftServer) [McFjorn: Killed McFjorn]
+[15:28:20] [Server thread/INFO] (net.minecraft.server.MinecraftServer) §eMcFjorn §ahas seized the banner! Return it to attacker spawn!
+[15:28:24] [Server thread/INFO] (net.minecraft.server.MinecraftServer) §cThe attackers seized the banner and returned it to their spawn!
+[15:28:24] [Server thread/INFO] (BattleManager) [BattleManager] Assault ended — Attackers win
+[15:28:34] [Server thread/INFO] (net.minecraft.server.network.ServerPlayNetworkHandler) McFjorn lost connection: Disconnected
+[15:28:34] [Server thread/INFO] (net.minecraft.server.MinecraftServer) McFjorn left the game
